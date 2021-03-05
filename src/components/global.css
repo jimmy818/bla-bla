@@ -100,6 +100,10 @@ body, .ant-menu{
     background: #E5E5E5;
     padding: 50px 27px 100px 36px;
 }
+.bg-black{
+    background: #111111;
+    transition-duration: 0.3s;
+}
 .fifth_title{
     font-family: Avenir;
     font-style: normal;
@@ -108,6 +112,9 @@ body, .ant-menu{
     line-height: 68px;
     color: #000000;
     margin-top: 55px;
+}
+.bg-black .fifth_title{
+    color: #FFFFFF;
 }
 .fifth_images{
     height: 450px;

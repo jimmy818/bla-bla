@@ -3,6 +3,7 @@ import { slide as Menu } from 'react-burger-menu'
 // import { Menu } from 'antd';
 import './HeaderFooter.css';
 import '../global.css';
+import Bla from '../images/Bla..svg';
 
 class AppHeader extends Component {
     state = {
@@ -27,7 +28,9 @@ class AppHeader extends Component {
         return (
             <React.Fragment>
             <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top bla_nav">
-                <a class="navbar-brand" href="#">Bla.</a>
+                <a class="navbar-brand" href="#">
+                    <img src={Bla} />    
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>

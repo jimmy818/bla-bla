@@ -9,7 +9,7 @@ import '../global.css';
 import sixthOne from '../images/61.png';
 import sixthTwo from '../images/62.png';
 import sixthThree from '../images/63.png';
-import vector from '../images/Vector.png';
+import vector from '../images/Vector.svg';
 
 const { Content } = Layout;
 
@@ -21,7 +21,8 @@ class Landing extends Component {
 
 
     state = {
-        changeClass :false
+        changeClass :false,
+        susproyectos: false,
     }
 
 
@@ -36,25 +37,39 @@ class Landing extends Component {
             var bounding = h1.getBoundingClientRect();
 
             // Log the results
-            console.log(bounding.top);
+            // console.log(bounding.top);
 
-            if(bounding.top <= 0 ){
-                console.log('okook')
+            if(bounding.top <= 280 ){
+                // console.log('okook')
                 this.setState({ changeClass: true })
             } else {
                 this.setState({ changeClass: false })
             }
 
-            if (
-                bounding.top >= 0 &&
-                bounding.left >= 0 &&
-                bounding.right <= (window.innerWidth || document.documentElement.clientWidth) &&
-                bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-            ) {
-                console.log('In the viewport!');
+            // ---------------
+
+            var aa = document.querySelector('susproyectos');
+            var pos = aa.getBoundingClientRect();
+
+            console.log(pos.top);
+
+            if(pos.top <= 280 ){
+                // console.log('okook')
+                this.setState({ susproyectos: true })
             } else {
-                console.log('Not in the viewport... whomp whomp');
+                this.setState({ susproyectos: false })
             }
+
+            // if (
+            //     bounding.top >= 0 &&
+            //     bounding.left >= 0 &&
+            //     bounding.right <= (window.innerWidth || document.documentElement.clientWidth) &&
+            //     bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+            // ) {
+            //     console.log('In the viewport!');
+            // } else {
+            //     console.log('Not in the viewport... whomp whomp');
+            // }
 
         } else {
             // console.log('teo')
@@ -166,7 +181,8 @@ class Landing extends Component {
                 {/* ************************
                     Fifth Row
                 *************************** */}
-                <Content className="fifth_row">
+                <susproyectos></susproyectos>
+                <Content className={ this.state.susproyectos ? 'fifth_row bg-black' : 'fifth_row' } >
                     <h3 className="fifth_title text-left">Sus proyectos</h3>
 
                     <Row>

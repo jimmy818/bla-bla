@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Layout, Row, Col } from 'antd';
 import './HeaderFooter.css';
+import MadeWith from '../images/Madewith.svg';
 
 const { Footer } = Layout;
 
@@ -20,7 +21,10 @@ class AppFooter extends Component {
 
                     </Col>
                     <Col xs={24} sm={12} lg={12} >
-                        <p className="footer_made_with">Made with 🍪 & ☕️ by Bla.</p>
+                        <p className="footer_made_with">
+                            {/* Made with 🍪 & ☕️ by Bla. */}
+                            <img src={MadeWith} />
+                        </p>
                     </Col>
                 </Row>
             </Footer>
