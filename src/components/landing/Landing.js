@@ -96,6 +96,9 @@ class Landing extends Component {
                     First Row
                 *************************** */}
                 <Content className="">
+                    <br />
+                    <br />
+                    <br />
 
                     <Row className="banner_section" >
 
