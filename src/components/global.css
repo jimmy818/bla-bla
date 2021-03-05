@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir'), url(./fonts/Avenir/Avenir_Regular.ttf) format('woff');
+}
+@font-face {
+    font-family: 'AaronsHand';
+    src: local('AaronsHand'), url(./fonts/AaronHand.ttf) format('woff');
+}
+.text-center{
+    text-align: center;
+}
+body, .ant-menu{
+    background: #E5E5E5;
+}
+.ant-menu-horizontal {
+    border-bottom: none;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.banner_section p{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+    margin-top: 55px;
+}
+.bg{
+    background: #E5E5E5;
+}
+.second_third_row{
+    padding: 0pc 26px 0px 36px;
+}
+.second_row{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 68px;
+    color: #000000;
+    margin-top: 55px;
+}
+.third_row{
+    background: #F4EB0A;
+    margin-bottom: 36px;
+}
+.third_row p{
+    font-family: AaronsHand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    text-align: center;
+    padding: 110px 0px 50px 0px;
+    color: #000000;
+}
+.fourth_row{
+    background: #111111;
+    transition-duration: 0.4s;
+}
+.fourth_title{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 68px;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+.fourth_left{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+    padding: 80px 0px 0px 50px;
+}
+.strategy_heading{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    color: #F4EB0A;
+}
+.strategy_text{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.fifth_row{
+    background: #E5E5E5;
+    padding: 50px 27px 100px 36px;
+}
+.fifth_title{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 68px;
+    color: #000000;
+    margin-top: 55px;
+}
+.fifth_images{
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+.fifth_one{
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/1.png);
+}
+.fifth_two{
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/2.png);
+}
+.fifth_three{
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/3.png);
+}
+.fifth_four{
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/4.png);
+}
+.fifth_five{
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/5.png);
+}
+.fifth_six{
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/6.png);
+}
+.fifth_seven{
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/7.png);
+}
+.fifth_eight{
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/8.png);
+}
+.fifth_nine{
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/9.png);
+}
+.fifth_ten{
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/10.png);
+}
+.fifth_eleven{
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/11.png);
+}
+
+.fifth_images h3{
+    padding: 60px 0px 0px 120px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.fifth_images h2{
+    padding: 180px 0px 0px 120px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 82px;
+    color: #FFFFFF;
+}
+.sixth_row{
+    background: #E5E5E5;
+    padding: 50px 27px 100px 36px;
+}
+.sixth_row h3{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 25px;
+    padding-top: 20px;
+}
+.sixth_title{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px !important;
+    line-height: 68px;
+    margin-bottom: 50px;
+}
+.sixth_row h4{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+}
+.mt-0{
+    margin-top:0px;
+}
+img{
+    width:100%;
+}
+.fourth_row.change_color {
+    background: #E5E5E5;
+}
+.fourth_row.change_color .fourth_title, .fourth_row.change_color .fourth_left, .fourth_row.change_color .strategy_text{
+    color: #111111;
+}
+.fourth_row.change_color .strategy_heading{
+    color: #E43737;
+}
+
+
+@media only screen and (max-width:768px){
+    h1{
+        font-size: 20px !important;
+    }
+    h2{
+        font-size: 24px !important;
+    }
+
+    .fifth_images h3 {
+        padding: 60px 0px 0px 20px !important;
+    }
+    .fifth_images h2 {
+        padding: 180px 0px 0px 20px;
+    }
+    .fourth_title {
+        font-size: 23px;
+    }
+    .fourth_left {
+        font-size: 24px;
+    }
+    .fifth_title {
+        font-size: 28px;
+    }
+    .sixth_row h3 {
+        font-size: 28px;
+    }
+    .mt-m-40{
+        margin-top: 40px;
+    }
+    .footer_text {
+        font-size: 50px;
+        line-height: 53px;
+        text-align: left;
+    }
+    .footer_mail {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 150px;
+    }
+    .footer_made_with {
+        font-size: 20px;
+        line-height: 55px;
+        text-align: center;
+    }
+    .banner_section p {
+       font-size: 24px;
+        line-height: 32.78PX;
+    }
+    .second_row {
+        font-size: 28px;
+        line-height: 38.25PX;
+        text-align: left;
+    }
+    .third_row p {
+        font-size: 50px;
+        line-height: 42px;
+    }
+    .fourth_left {
+        line-height: 32px;
+        padding: 10px 0px 42px 0px;
+    }
+    
+
+}
