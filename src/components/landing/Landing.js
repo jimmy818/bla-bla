@@ -143,7 +143,7 @@ class Landing extends Component {
                     // ref={(el) => this.yourElement = el}
                     // ref={inputRef}
 
-                    className={this.state.changeClass ? 'fourth_row change_color' : ' fourth_row '} style={{ 'paddingLeft': '36px' }}>
+                    className={this.state.changeClass ? 'fourth_row ' : ' fourth_row change_color'} style={{ 'paddingLeft': '36px' }}>
 
                     <h3 className="fourth_title">Qué hacen</h3>
 
