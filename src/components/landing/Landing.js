@@ -3,6 +3,7 @@ import {
     Layout, Row, Col, Space
 } from 'antd';
 import 'antd/dist/antd.css';
+import { Link } from 'react-router-dom';
 import AppHeader from '../includes/AppHeader';
 import AppFooter from '../includes/AppFooter';
 import '../global.css';
@@ -21,7 +22,7 @@ class Landing extends Component {
 
 
     state = {
-        changeClass :false,
+        changeClass: false,
         susproyectos: false,
     }
 
@@ -39,7 +40,7 @@ class Landing extends Component {
             // Log the results
             // console.log(bounding.top);
 
-            if(bounding.top <= 280 ){
+            if (bounding.top <= 280) {
                 // console.log('okook')
                 this.setState({ changeClass: true })
             } else {
@@ -53,7 +54,7 @@ class Landing extends Component {
 
             console.log(pos.top);
 
-            if(pos.top <= 280 ){
+            if (pos.top <= 280) {
                 // console.log('okook')
                 this.setState({ susproyectos: true })
             } else {
@@ -85,7 +86,7 @@ class Landing extends Component {
 
 
     render() {
-                
+
         return (
             <Layout className="bg">
 
@@ -142,7 +143,7 @@ class Landing extends Component {
                     // ref={(el) => this.yourElement = el}
                     // ref={inputRef}
 
-                    className={ this.state.changeClass ? 'fourth_row' : ' fourth_row change_color' }   style={{ 'paddingLeft': '36px' }}>
+                    className={this.state.changeClass ? 'fourth_row change_color' : ' fourth_row '} style={{ 'paddingLeft': '36px' }}>
 
                     <h3 className="fourth_title">Qué hacen</h3>
 
@@ -185,7 +186,7 @@ class Landing extends Component {
                     Fifth Row
                 *************************** */}
                 <susproyectos></susproyectos>
-                <Content className={ this.state.susproyectos ? 'fifth_row bg-black' : 'fifth_row' } >
+                <Content className={this.state.susproyectos ? 'fifth_row ' : ' fifth_row bg-black'} >
                     <h3 className="fifth_title text-left">Sus proyectos</h3>
 
                     <Row>
@@ -291,7 +292,7 @@ class Landing extends Component {
                                     <h4>Head of brand</h4>
                                 </Col>
                                 <Col xs={2} className="mt-0">
-                                    <img src={vector} />
+                                    <Link to="#"><img src={vector} width="28" height="28" /></Link>
                                 </Col>
                             </Row>
 
@@ -306,7 +307,7 @@ class Landing extends Component {
                                     <h4> Product manager</h4>
                                 </Col>
                                 <Col xs={2} className="mt-0">
-                                    <img src={vector} />
+                                    <Link to="#"><img src={vector} width="28" height="28" /></Link>
                                 </Col>
                             </Row>
 
@@ -321,7 +322,7 @@ class Landing extends Component {
                                     <h4>Full stack developer</h4>
                                 </Col>
                                 <Col xs={2} className="mt-0">
-                                    <img src={vector} />
+                                    <Link to="#"><img src={vector} width="28" height="28" /></Link>
                                 </Col>
                             </Row>
 

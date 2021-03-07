@@ -22,8 +22,8 @@ class AppFooter extends Component {
                     </Col>
                     <Col xs={24} sm={12} lg={12} >
                         <p className="footer_made_with">
-                            {/* Made with 🍪 & ☕️ by Bla. */}
-                            <img src={MadeWith} />
+                            Made with 🍪 & ☕️ by <b>Bla.</b>
+                            {/* <img src={MadeWith} /> */}
                         </p>
                     </Col>
                 </Row>
