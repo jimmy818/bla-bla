@@ -216,9 +216,23 @@ img{
 .fourth_row.change_color .strategy_heading{
     color: #E43737;
 }
-
+.yellow_bg{
+    background: url(./images/Rectangle.svg);
+    font-family: AaronsHand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 50px;
+    width: 100%;
+    height: 205px;
+    text-align: center;
+    padding: 63px 27px;
+}
 
 @media only screen and (max-width:768px){
+    .fixed-top {
+        position: inherit;
+    }
     .ant-layout-content br
     {display: none;}
     h1{

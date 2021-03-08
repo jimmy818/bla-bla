@@ -284,7 +284,14 @@ class Landing extends Component {
                     <Row gutter={[48, 0]}>
                         {/* <Space> */}
                         <Col xs={24} sm={{ span: 6, offset: 3 }} className="">
-                            <img src={sixthOne} />
+                            {/* <img src={sixthOne} /> */}
+                            <Row type="flex" align="middle">
+                                <Col xs={24}>
+                                    <div className="yellow_bg" >
+                                    Foto  Mariela
+                                    </div>
+                                </Col>
+                            </Row>
 
                             <h3>Mariela Magaña</h3>
                             <Row>
@@ -299,7 +306,14 @@ class Landing extends Component {
                         </Col>
 
                         <Col xs={24} sm={{ span: 6, offset: 0 }} className="mt-m-40">
-                            <img src={sixthTwo} />
+                            {/* <img src={sixthTwo} /> */}
+                            <Row type="flex" align="middle">
+                                <Col xs={24}>
+                                    <div className="yellow_bg" >
+                                    Foto  Adri
+                                    </div>
+                                </Col>
+                            </Row>
 
                             <h3>Adrián Colinas</h3>
                             <Row>
@@ -314,7 +328,14 @@ class Landing extends Component {
                         </Col>
 
                         <Col xs={24} sm={{ span: 6, offset: 0 }} className="mt-m-40">
-                            <img src={sixthThree} />
+                            {/* <img src={sixthThree} /> */}
+                            <Row type="flex" align="middle">
+                                <Col xs={24}>
+                                    <div className="yellow_bg" >
+                                    Foto  Luis
+                                    </div>
+                                </Col>
+                            </Row>
 
                             <h3>Luis</h3>
                             <Row>
