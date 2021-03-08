@@ -288,7 +288,7 @@ class Landing extends Component {
                             <Row type="flex" align="middle">
                                 <Col xs={24}>
                                     <div className="yellow_bg" >
-                                    Foto  Mariela
+                                    Foto <br /> Mariela
                                     </div>
                                 </Col>
                             </Row>
@@ -310,7 +310,7 @@ class Landing extends Component {
                             <Row type="flex" align="middle">
                                 <Col xs={24}>
                                     <div className="yellow_bg" >
-                                    Foto  Adri
+                                    Foto <br /> Adri
                                     </div>
                                 </Col>
                             </Row>
@@ -332,7 +332,7 @@ class Landing extends Component {
                             <Row type="flex" align="middle">
                                 <Col xs={24}>
                                     <div className="yellow_bg" >
-                                    Foto  Luis
+                                    Foto <br /> Luis
                                     </div>
                                 </Col>
                             </Row>

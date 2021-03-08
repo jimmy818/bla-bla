@@ -226,7 +226,7 @@ img{
     width: 100%;
     height: 205px;
     text-align: center;
-    padding: 63px 27px;
+    padding: 63px 3%;
 }
 
 @media only screen and (max-width:768px){
