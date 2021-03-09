@@ -31,7 +31,8 @@ body, .ant-menu{
     margin-top: 55px;
 }
 .bg{
-    background: #E5E5E5;
+    /* background: #E5E5E5; */
+    background: #FFF;
 }
 .second_third_row{
     padding: 0pc 26px 0px 36px;
@@ -97,7 +98,7 @@ body, .ant-menu{
     color: #FFFFFF;
 }
 .fifth_row{
-    background: #E5E5E5;
+    background: #FFF;
     padding: 50px 27px 100px 36px;
     transition-duration: 0.3s;
 }
@@ -175,7 +176,7 @@ body, .ant-menu{
     color: #FFFFFF;
 }
 .sixth_row{
-    background: #E5E5E5;
+    background: #FFF;
     padding: 50px 27px 100px 36px;
 }
 .sixth_row h3{
@@ -269,7 +270,11 @@ img{
     }
     .fifth_images h2 {
         padding: 180px 0px 0px 15px;
-        font-size: 23px !important;
+        font-weight: revert;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
     }
     .fourth_title {
         font-size: 23px;
@@ -283,7 +288,7 @@ img{
     }
     .sixth_row h3 {
         font-size: 32px !important;
-        font-weight: 800;
+        font-weight: 500;
         margin-top: 15px;
         margin-bottom: 25px;
     }
