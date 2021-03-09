@@ -299,7 +299,7 @@ class Landing extends Component {
                                     <h4>Head of brand</h4>
                                 </Col>
                                 <Col xs={2} className="mt-0">
-                                    <Link to="#"><img src={vector} width="28" height="28" /></Link>
+                                    <a href="https://linkedin.com/" target="_blank"><img src={vector} width="28" height="28" /></a>
                                 </Col>
                             </Row>
 
@@ -321,7 +321,7 @@ class Landing extends Component {
                                     <h4> Product manager</h4>
                                 </Col>
                                 <Col xs={2} className="mt-0">
-                                    <Link to="#"><img src={vector} width="28" height="28" /></Link>
+                                    <a href="https://linkedin.com/" target="_blank"><img src={vector} width="28" height="28" /></a>
                                 </Col>
                             </Row>
 
@@ -343,7 +343,7 @@ class Landing extends Component {
                                     <h4>Full stack developer</h4>
                                 </Col>
                                 <Col xs={2} className="mt-0">
-                                    <Link to="#"><img src={vector} width="28" height="28" /></Link>
+                                    <a href="https://linkedin.com/" target="_blank"><img src={vector} width="28" height="28" /></a>
                                 </Col>
                             </Row>
 
