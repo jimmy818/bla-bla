@@ -10,7 +10,7 @@
     text-align: center;
 }
 body, .ant-menu{
-    background: #E5E5E5;
+    background: #FFF;
 }
 .ant-menu-horizontal {
     border-bottom: none;
@@ -209,7 +209,7 @@ img{
     width:100%;
 }
 .fourth_row.change_color {
-    background: #E5E5E5;
+    background: #FFF;
 }
 .fourth_row.change_color .fourth_title, .fourth_row.change_color .fourth_left, .fourth_row.change_color .strategy_text{
     color: #111111;
