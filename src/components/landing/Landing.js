@@ -127,7 +127,7 @@ class Landing extends Component {
 
                     <Row>
                         <Col span={24} className="third_row">
-                            <p >Poner foto de nosotros</p>
+                            <p className="responsite-paragraph">Poner foto de nosotros</p>
                         </Col>
                     </Row>
 
@@ -281,7 +281,7 @@ class Landing extends Component {
                 <Content className="sixth_row">
                     <h3 className="sixth_title" style={{ fontWeight:"800" }}>Gente del equipo</h3>
 
-                    <Row gutter={[48, 0]}>
+                    <Row gutter={[48, 0]} style={{ marginLeft:"0px",marginRight:"0px" }}>
                         {/* <Space> */}
                         <Col xs={24} sm={{ span: 6, offset: 3 }} className="">
                             {/* <img src={sixthOne} /> */}

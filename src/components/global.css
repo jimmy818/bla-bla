@@ -345,4 +345,11 @@ img{
         width: 2.5em;
         height: 2.5em;
     }
+    .fifth_seven1{
+        background-position: -140px;
+    }
+    .responsite-paragraph{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
