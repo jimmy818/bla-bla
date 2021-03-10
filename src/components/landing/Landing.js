@@ -56,7 +56,9 @@ class Landing extends Component {
 
             if (pos.top <= 280) {
                 // console.log('okook')
-                this.setState({ susproyectos: true, changeClass: false })
+                this.setState({ changeClass: false, susproyectos: true }, function () {
+
+                })
             } else {
                 this.setState({ susproyectos: false })
             }
