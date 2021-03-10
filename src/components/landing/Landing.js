@@ -283,7 +283,7 @@ class Landing extends Component {
 
                     <Row gutter={[48, 0]} style={{ marginLeft:"0px",marginRight:"0px" }}>
                         {/* <Space> */}
-                        <Col xs={24} sm={{ span: 6, offset: 3 }} className="">
+                        <Col xs={24} sm={{ span: 6, offset: 3 }} className="responsive-block">
                             {/* <img src={sixthOne} /> */}
                             <Row type="flex" align="middle">
                                 <Col xs={24}>
@@ -305,7 +305,7 @@ class Landing extends Component {
 
                         </Col>
 
-                        <Col xs={24} sm={{ span: 6, offset: 0 }} className="mt-m-40">
+                        <Col xs={24} sm={{ span: 6, offset: 0 }} className="mt-m-40 responsive-block">
                             {/* <img src={sixthTwo} /> */}
                             <Row type="flex" align="middle">
                                 <Col xs={24}>
@@ -327,7 +327,7 @@ class Landing extends Component {
 
                         </Col>
 
-                        <Col xs={24} sm={{ span: 6, offset: 0 }} className="mt-m-40">
+                        <Col xs={24} sm={{ span: 6, offset: 0 }} className="mt-m-40 responsive-block">
                             {/* <img src={sixthThree} /> */}
                             <Row type="flex" align="middle">
                                 <Col xs={24}>

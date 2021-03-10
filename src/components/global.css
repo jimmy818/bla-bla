@@ -349,7 +349,11 @@ img{
         background-position: -140px;
     }
     .responsite-paragraph{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .responsive-block{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 }
