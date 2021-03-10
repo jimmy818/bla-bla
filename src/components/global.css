@@ -10,7 +10,7 @@
     text-align: center;
 }
 body, .ant-menu{
-    background: #E5E5E5;
+    background: #FFF;
 }
 .ant-menu-horizontal {
     border-bottom: none;
@@ -32,6 +32,7 @@ body, .ant-menu{
 }
 .bg{
     background: #fff;
+    /* background: #E5E5E5; */
 }
 .second_third_row{
     padding: 0pc 26px 0px 36px;
@@ -98,6 +99,7 @@ body, .ant-menu{
 }
 .fifth_row{
     background: #fff;
+    /* background: #FFF; */
     padding: 50px 27px 100px 36px;
     transition-duration: 0.3s;
 }
@@ -147,10 +149,13 @@ body, .ant-menu{
     background-image: linear-gradient(#000000e0, #ffffff00), url(./images/6.png);
 }
 .fifth_seven{
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/7.png);
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/12.png);
+}
+.fifth_seven1{
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/8.png);
 }
 .fifth_eight{
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/8.png);
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/9.png);
 }
 .fifth_nine{
     background-image: linear-gradient(#000000e0, #ffffff00), url(./images/9.png);
@@ -181,7 +186,7 @@ body, .ant-menu{
     color: #FFFFFF;
 }
 .sixth_row{
-    background: #E5E5E5;
+    background: #FFF;
     padding: 50px 27px 100px 36px;
 }
 .sixth_row h3{
@@ -280,7 +285,11 @@ img{
     }
     .fifth_images h2 {
         padding: 180px 0px 0px 15px;
-        font-size: 23px !important;
+        font-weight: revert;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
     }
     .fourth_title {
         font-size: 23px;
@@ -294,7 +303,7 @@ img{
     }
     .sixth_row h3 {
         font-size: 32px !important;
-        font-weight: 800;
+        font-weight: 500;
         margin-top: 15px;
         margin-bottom: 25px;
     }
@@ -347,5 +356,16 @@ img{
     .navbar-toggler-icon{
         width: 2.5em;
         height: 2.5em;
+    }
+    .fifth_seven1{
+        background-position: -140px;
+    }
+    .responsite-paragraph{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .responsive-block{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 }

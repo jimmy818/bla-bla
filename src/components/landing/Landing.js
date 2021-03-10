@@ -127,7 +127,7 @@ class Landing extends Component {
 
                     <Row>
                         <Col span={24} className="third_row">
-                            <p >Poner foto de nosotros</p>
+                            <p className="responsite-paragraph">Poner foto de nosotros</p>
                         </Col>
                     </Row>
 
@@ -163,7 +163,7 @@ class Landing extends Component {
                             </Row>
                             <Row>
                                 <Col xs={{ span: 24, offset: 0 }} sm={{ span: 22, offset: 2 }}>
-                                    <p className="strategy_heading">Strategy</p>
+                                    <p className="strategy_heading">Identity</p>
                                 </Col>
                                 <Col xs={{ span: 20, offset: 4 }} sm={{ span: 19, offset: 5 }}>
                                     <p className="strategy_text">“Recordarán tu marca como las lentejas de la abuela”. Diseñamos lo que necesites; branding, web, ecommerce o app, siempre desde la experiencia del usuario.</p>
@@ -171,7 +171,7 @@ class Landing extends Component {
                             </Row>
                             <Row>
                                 <Col xs={{ span: 24, offset: 0 }} sm={{ span: 22, offset: 2 }}>
-                                    <p className="strategy_heading">Strategy</p>
+                                    <p className="strategy_heading">Flow</p>
                                 </Col>
                                 <Col xs={{ span: 20, offset: 4 }} sm={{ span: 19, offset: 5 }}>
                                     <p className="strategy_text">#betrendmyfriend Estrategias de social media, comunicación, producción y social paid</p>
@@ -191,7 +191,7 @@ class Landing extends Component {
 
                     <Row>
                         <Col xs={24} className="fifth_one fifth_images">
-                            <h3>Cris4life woman center</h3>
+                            <h3>Cris4life Woman Center</h3>
                             <h2>#wmnpwr</h2>
                         </Col>
                     </Row>
@@ -239,25 +239,25 @@ class Landing extends Component {
                     </Row>
 
                     <Row>
-                        <Col xs={24} className="fifth_seven fifth_images">
-                            <h3>iOScoot</h3>
+                        <Col xs={24} className="fifth_seven1 fifth_images">
+                            <h3>IOScoot</h3>
                             <h2>#motosharing</h2>
                         </Col>
                     </Row>
 
                     <Row>
                         <Col xs={24} className="fifth_eight fifth_images">
-                            <h3>Cris4life woman center</h3>
-                            <h2>#wmnpwr</h2>
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col xs={24} className="fifth_nine fifth_images">
                             <h3>Kanguru Jewels</h3>
                             <h2>#jewelry</h2>
                         </Col>
                     </Row>
+
+                    {/* <Row>
+                        <Col xs={24} className="fifth_nine fifth_images">
+                            <h3>Kanguru Jewels</h3>
+                            <h2>#jewelry</h2>
+                        </Col>
+                    </Row> */}
 
                     <Row>
                         <Col xs={24} className="fifth_ten fifth_images">
@@ -279,11 +279,11 @@ class Landing extends Component {
 
 
                 <Content className="sixth_row">
-                    <h3 className="sixth_title">Gente del equipo</h3>
+                    <h3 className="sixth_title" style={{ fontWeight:"800" }}>Gente del equipo</h3>
 
-                    <Row gutter={[48, 0]}>
+                    <Row gutter={[48, 0]} style={{ marginLeft:"0px",marginRight:"0px" }}>
                         {/* <Space> */}
-                        <Col xs={24} sm={{ span: 6, offset: 3 }} className="">
+                        <Col xs={24} sm={{ span: 6, offset: 3 }} className="responsive-block">
                             {/* <img src={sixthOne} /> */}
                             <Row type="flex" align="middle">
                                 <Col xs={24}>
@@ -305,7 +305,7 @@ class Landing extends Component {
 
                         </Col>
 
-                        <Col xs={24} sm={{ span: 6, offset: 0 }} className="mt-m-40">
+                        <Col xs={24} sm={{ span: 6, offset: 0 }} className="mt-m-40 responsive-block">
                             {/* <img src={sixthTwo} /> */}
                             <Row type="flex" align="middle">
                                 <Col xs={24}>
@@ -327,7 +327,7 @@ class Landing extends Component {
 
                         </Col>
 
-                        <Col xs={24} sm={{ span: 6, offset: 0 }} className="mt-m-40">
+                        <Col xs={24} sm={{ span: 6, offset: 0 }} className="mt-m-40 responsive-block">
                             {/* <img src={sixthThree} /> */}
                             <Row type="flex" align="middle">
                                 <Col xs={24}>
