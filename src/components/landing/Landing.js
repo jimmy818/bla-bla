@@ -240,7 +240,7 @@ class Landing extends Component {
 
                     <Row>
                         <Col xs={24} className="fifth_seven1 fifth_images">
-                            <h3>iOScoot</h3>
+                            <h3>IOScoot</h3>
                             <h2>#motosharing</h2>
                         </Col>
                     </Row>

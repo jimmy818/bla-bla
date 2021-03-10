@@ -125,6 +125,11 @@ body, .ant-menu{
 }
 .fifth_one{
     background-image: linear-gradient(#000000e0, #ffffff00), url(./images/1.png);
+    /* background-image: -moz-linear-gradient(top,  #ffad26 0%, #fea026 50%, #ff8b00 51%, #ff7701 100%), url(./images/1.png); FF3.6+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffad26), color-stop(50%,#fea026), color-stop(51%,#ff8b00), color-stop(100%,#ff7701)), url(./images/1.png); Chrome,Safari4+
+    background-image: -webkit-linear-gradient(top,  #ffad26 0%,#fea026 50%,#ff8b00 51%,#ff7701 100%), url(./images/1.png); Chrome10+,Safari5.1+
+    background-image: -o-linear-gradient(top,  #ffad26 0%,#fea026 50%,#ff8b00 51%,#ff7701 100%), url(./images/1.png); Opera 11.10+
+    background-image: -ms-linear-gradient(top,  #ffad26 0%,#fea026 50%,#ff8b00 51%,#ff7701 100%), url(./images/1.png); IE10+ */
 }
 .fifth_two{
     background-image: linear-gradient(#000000e0, #ffffff00), url(./images/2.png);
