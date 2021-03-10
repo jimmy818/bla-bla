@@ -142,10 +142,13 @@ body, .ant-menu{
     background-image: linear-gradient(#000000e0, #ffffff00), url(./images/6.png);
 }
 .fifth_seven{
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/7.png);
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/12.png);
+}
+.fifth_seven1{
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/8.png);
 }
 .fifth_eight{
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/8.png);
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/9.png);
 }
 .fifth_nine{
     background-image: linear-gradient(#000000e0, #ffffff00), url(./images/9.png);
