@@ -56,7 +56,7 @@ class Landing extends Component {
 
             if (pos.top <= 280) {
                 // console.log('okook')
-                this.setState({ susproyectos: true })
+                this.setState({ susproyectos: true, changeClass: false })
             } else {
                 this.setState({ susproyectos: false })
             }
@@ -118,7 +118,7 @@ class Landing extends Component {
                 {/* ************************
                     Second and third Row
                 *************************** */}
-                <Content className="second_third_row" style={{ 'paddingLeft': '36px' }}>
+                <Content className={this.state.changeClass ? 'second_third_row ' : ' second_third_row change_color'} style={{ 'paddingLeft': '36px' }}>
                     <Row>
                         <Col span={24}>
                             <p className="second_row text-left">Quién es esta gente</p>

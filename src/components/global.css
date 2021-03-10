@@ -31,7 +31,7 @@ body, .ant-menu{
     margin-top: 55px;
 }
 .bg{
-    background: #E5E5E5;
+    background: #fff;
 }
 .second_third_row{
     padding: 0pc 26px 0px 36px;
@@ -60,7 +60,7 @@ body, .ant-menu{
 }
 .fourth_row{
     background: #111111;
-    transition-duration: 0.4s;
+    transition-duration: 0.3s;
 }
 .fourth_title{
     font-family: Avenir;
@@ -97,7 +97,7 @@ body, .ant-menu{
     color: #FFFFFF;
 }
 .fifth_row{
-    background: #E5E5E5;
+    background: #fff;
     padding: 50px 27px 100px 36px;
     transition-duration: 0.3s;
 }
@@ -124,6 +124,12 @@ body, .ant-menu{
 }
 .fifth_one{
     background-image: linear-gradient(#000000e0, #ffffff00), url(./images/1.png);
+    background-image: -moz-linear-gradient(#000000e0, #ffffff00), url(./images/1.png); /* FF3.6+ */
+    background-image: -webkit-gradient(#000000e0, #ffffff00), url(./images/1.png); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(#000000e0, #ffffff00), url(./images/1.png); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(#000000e0, #ffffff00), url(./images/1.png); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(#000000e0, #ffffff00), url(./images/1.png); /* IE10+ */
+    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/1.png);  
 }
 .fifth_two{
     background-image: linear-gradient(#000000e0, #ffffff00), url(./images/2.png);
@@ -207,10 +213,14 @@ body, .ant-menu{
 img{
     width:100%;
 }
-.fourth_row.change_color {
-    background: #E5E5E5;
+.second_third_row{
+    background: #111111;
+    transition-duration: 0.3s;
 }
-.fourth_row.change_color .fourth_title, .fourth_row.change_color .fourth_left, .fourth_row.change_color .strategy_text{
+.fourth_row.change_color, .second_third_row.change_color {
+    background: #fff;
+}
+.fourth_row.change_color .fourth_title, .fourth_row.change_color .fourth_left, .fourth_row.change_color .strategy_text, .second_third_row.change_color{
     color: #111111;
 }
 .fourth_row.change_color .strategy_heading{
@@ -220,13 +230,14 @@ img{
     background: url(./images/Rectangle.svg);
     font-family: AaronsHand;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 60px;
     line-height: 50px;
     width: 100%;
     height: 205px;
     text-align: center;
     padding: 63px 3%;
+
 }
 
 @media only screen and (max-width:768px){
