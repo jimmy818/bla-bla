@@ -297,11 +297,11 @@ class Landing extends Component {
 
                             <h3>Mariela Magaña</h3>
                             <Row>
-                                <Col xs={22}>
+                                <Col xs={21}>
                                     <h4>Head of brand</h4>
                                 </Col>
-                                <Col xs={2} className="mt-0">
-                                    <a href="https://linkedin.com/" target="_blank"><img src={vector} width="28" height="28" /></a>
+                                <Col xs={3} className="mt-0 text-right">
+                                    <a href="https://linkedin.com/" target="_blank"><img className="linkedInImg" src={vector} width="28" height="28" /></a>
                                 </Col>
                             </Row>
 
@@ -319,11 +319,11 @@ class Landing extends Component {
 
                             <h3>Adrián Colinas</h3>
                             <Row>
-                                <Col xs={22}>
+                                <Col xs={21}>
                                     <h4> Product manager</h4>
                                 </Col>
-                                <Col xs={2} className="mt-0">
-                                    <a href="https://linkedin.com/" target="_blank"><img src={vector} width="28" height="28" /></a>
+                                <Col xs={3} className="mt-0 text-right">
+                                    <a href="https://linkedin.com/" target="_blank"><img className="linkedInImg" src={vector} width="28" height="28" /></a>
                                 </Col>
                             </Row>
 
@@ -341,11 +341,11 @@ class Landing extends Component {
 
                             <h3>Luis</h3>
                             <Row>
-                                <Col xs={22}>
+                                <Col xs={21}>
                                     <h4>Full stack developer</h4>
                                 </Col>
-                                <Col xs={2} className="mt-0">
-                                    <a href="https://linkedin.com/" target="_blank"><img src={vector} width="28" height="28" /></a>
+                                <Col xs={3} className="mt-0">
+                                    <a href="https://linkedin.com/" target="_blank"><img className="linkedInImg" src={vector} width="28" height="28" /></a>
                                 </Col>
                             </Row>
 

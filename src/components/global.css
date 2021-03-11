@@ -323,6 +323,10 @@ img{
     padding: 63px 3%;
 
 }
+.linkedInImg{
+    width: 28px;
+    height: 28px;
+}
 
 @media only screen and (max-width:768px){
     .fixed-top {
