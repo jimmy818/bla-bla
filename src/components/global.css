@@ -87,7 +87,7 @@ body, .ant-menu{
     font-weight: 300;
     font-size: 20px;
     line-height: 27px;
-    color: #F4EB0A;
+    color: #E43737;
 }
 .strategy_text{
     font-family: Avenir;
@@ -308,7 +308,7 @@ img{
     color: #fff;
 }
 .fourth_row.bg_dark .strategy_heading{
-    color: #E43737;
+    color: #F4EB0A;
 }
 .yellow_bg{
     background: url(./images/Rectangle.svg);
