@@ -128,7 +128,13 @@ body, .ant-menu{
     background-position: center;
 }
 .fifth_one{
-    background-image: url(./images/1.png);
+        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/1.png);
+        background-image: -moz-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/1.png); /* FF3.6+ */
+        background-image: -webkit-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/1.png); /* Chrome,Safari4+ */
+        background-image: -webkit-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/1.png); /* Chrome10+,Safari5.1+ */
+        background-image: -o-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/1.png); /* Opera 11.10+ */
+        background-image: -ms-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/1.png); /* IE10+ */
+        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/1.png);  
 }
 .fifth_two{
     background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%) url(./images/2.png);
@@ -140,104 +146,104 @@ body, .ant-menu{
     background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/2.png); 
 }
 .fifth_three{
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/3.png);
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/3.png);
-    background-image: -moz-linear-gradient(#000000e0, #ffffff00), url(./images/3.png); /* FF3.6+ */
-    background-image: -webkit-gradient(#000000e0, #ffffff00), url(./images/3.png); /* Chrome,Safari4+ */
-    background-image: -webkit-linear-gradient(#000000e0, #ffffff00), url(./images/3.png); /* Chrome10+,Safari5.1+ */
-    background-image: -o-linear-gradient(#000000e0, #ffffff00), url(./images/3.png); /* Opera 11.10+ */
-    background-image: -ms-linear-gradient(#000000e0, #ffffff00), url(./images/3.png); /* IE10+ */
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/3.png); 
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/3.png);
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/3.png);
+    background-image: -moz-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/3.png); /* FF3.6+ */
+    background-image: -webkit-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/3.png); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/3.png); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/3.png); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/3.png); /* IE10+ */
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/3.png); 
 }
 .fifth_four{
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/4.png);
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/4.png);
-    background-image: -moz-linear-gradient(#000000e0, #ffffff00), url(./images/4.png); /* FF3.6+ */
-    background-image: -webkit-gradient(#000000e0, #ffffff00), url(./images/4.png); /* Chrome,Safari4+ */
-    background-image: -webkit-linear-gradient(#000000e0, #ffffff00), url(./images/4.png); /* Chrome10+,Safari5.1+ */
-    background-image: -o-linear-gradient(#000000e0, #ffffff00), url(./images/4.png); /* Opera 11.10+ */
-    background-image: -ms-linear-gradient(#000000e0, #ffffff00), url(./images/4.png); /* IE10+ */
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/4.png); 
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/4.png);
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/4.png);
+    background-image: -moz-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/4.png); /* FF3.6+ */
+    background-image: -webkit-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/4.png); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/4.png); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/4.png); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/4.png); /* IE10+ */
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/4.png); 
 }
 .fifth_five{
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/5.png);
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/5.png);
-    background-image: -moz-linear-gradient(#000000e0, #ffffff00), url(./images/5.png); /* FF3.6+ */
-    background-image: -webkit-gradient(#000000e0, #ffffff00), url(./images/5.png); /* Chrome,Safari4+ */
-    background-image: -webkit-linear-gradient(#000000e0, #ffffff00), url(./images/5.png); /* Chrome10+,Safari5.1+ */
-    background-image: -o-linear-gradient(#000000e0, #ffffff00), url(./images/5.png); /* Opera 11.10+ */
-    background-image: -ms-linear-gradient(#000000e0, #ffffff00), url(./images/5.png); /* IE10+ */
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/5.png); 
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/5.png);
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/5.png);
+    background-image: -moz-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/5.png); /* FF3.6+ */
+    background-image: -webkit-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/5.png); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/5.png); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/5.png); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/5.png); /* IE10+ */
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/5.png); 
 }
 .fifth_six{
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/6.png);
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/6.png);
-    background-image: -moz-linear-gradient(#000000e0, #ffffff00), url(./images/6.png); /* FF3.6+ */
-    background-image: -webkit-gradient(#000000e0, #ffffff00), url(./images/6.png); /* Chrome,Safari4+ */
-    background-image: -webkit-linear-gradient(#000000e0, #ffffff00), url(./images/6.png); /* Chrome10+,Safari5.1+ */
-    background-image: -o-linear-gradient(#000000e0, #ffffff00), url(./images/6.png); /* Opera 11.10+ */
-    background-image: -ms-linear-gradient(#000000e0, #ffffff00), url(./images/6.png); /* IE10+ */
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/6.png); 
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/6.png);
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/6.png);
+    background-image: -moz-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/6.png); /* FF3.6+ */
+    background-image: -webkit-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/6.png); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/6.png); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/6.png); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/6.png); /* IE10+ */
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/6.png); 
 }
 .fifth_seven{
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/12.png);
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/12.png);
-    background-image: -moz-linear-gradient(#000000e0, #ffffff00), url(./images/12.png); /* FF3.6+ */
-    background-image: -webkit-gradient(#000000e0, #ffffff00), url(./images/12.png); /* Chrome,Safari4+ */
-    background-image: -webkit-linear-gradient(#000000e0, #ffffff00), url(./images/12.png); /* Chrome10+,Safari5.1+ */
-    background-image: -o-linear-gradient(#000000e0, #ffffff00), url(./images/12.png); /* Opera 11.10+ */
-    background-image: -ms-linear-gradient(#000000e0, #ffffff00), url(./images/12.png); /* IE10+ */
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/12.png); 
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/12.png);
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/12.png);
+    background-image: -moz-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/12.png); /* FF3.6+ */
+    background-image: -webkit-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/12.png); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/12.png); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/12.png); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/12.png); /* IE10+ */
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/12.png); 
 }
 .fifth_seven1{
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/8.png);
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/8.png);
-    background-image: -moz-linear-gradient(#000000e0, #ffffff00), url(./images/8.png); /* FF3.6+ */
-    background-image: -webkit-gradient(#000000e0, #ffffff00), url(./images/8.png); /* Chrome,Safari4+ */
-    background-image: -webkit-linear-gradient(#000000e0, #ffffff00), url(./images/8.png); /* Chrome10+,Safari5.1+ */
-    background-image: -o-linear-gradient(#000000e0, #ffffff00), url(./images/8.png); /* Opera 11.10+ */
-    background-image: -ms-linear-gradient(#000000e0, #ffffff00), url(./images/8.png); /* IE10+ */
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/8.png); 
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/8.png);
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/8.png);
+    background-image: -moz-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/8.png); /* FF3.6+ */
+    background-image: -webkit-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/8.png); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/8.png); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/8.png); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/8.png); /* IE10+ */
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/8.png); 
 }
 .fifth_eight{
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/9.png);
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/9.png);
-    background-image: -moz-linear-gradient(#000000e0, #ffffff00), url(./images/9.png); /* FF3.6+ */
-    background-image: -webkit-gradient(#000000e0, #ffffff00), url(./images/9.png); /* Chrome,Safari4+ */
-    background-image: -webkit-linear-gradient(#000000e0, #ffffff00), url(./images/9.png); /* Chrome10+,Safari5.1+ */
-    background-image: -o-linear-gradient(#000000e0, #ffffff00), url(./images/9.png); /* Opera 11.10+ */
-    background-image: -ms-linear-gradient(#000000e0, #ffffff00), url(./images/9.png); /* IE10+ */
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/9.png); 
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png);
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png);
+    background-image: -moz-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png); /* FF3.6+ */
+    background-image: -webkit-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png); /* IE10+ */
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png); 
 }
 .fifth_nine{
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/9.png);
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/9.png);
-    background-image: -moz-linear-gradient(#000000e0, #ffffff00), url(./images/9.png); /* FF3.6+ */
-    background-image: -webkit-gradient(#000000e0, #ffffff00), url(./images/9.png); /* Chrome,Safari4+ */
-    background-image: -webkit-linear-gradient(#000000e0, #ffffff00), url(./images/9.png); /* Chrome10+,Safari5.1+ */
-    background-image: -o-linear-gradient(#000000e0, #ffffff00), url(./images/9.png); /* Opera 11.10+ */
-    background-image: -ms-linear-gradient(#000000e0, #ffffff00), url(./images/9.png); /* IE10+ */
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/9.png); 
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png);
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png);
+    background-image: -moz-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png); /* FF3.6+ */
+    background-image: -webkit-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png); /* IE10+ */
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/9.png); 
 }
 .fifth_ten{
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/10.png);
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/10.png);
-    background-image: -moz-linear-gradient(#000000e0, #ffffff00), url(./images/10.png); /* FF3.6+ */
-    background-image: -webkit-gradient(#000000e0, #ffffff00), url(./images/10.png); /* Chrome,Safari4+ */
-    background-image: -webkit-linear-gradient(#000000e0, #ffffff00), url(./images/10.png); /* Chrome10+,Safari5.1+ */
-    background-image: -o-linear-gradient(#000000e0, #ffffff00), url(./images/10.png); /* Opera 11.10+ */
-    background-image: -ms-linear-gradient(#000000e0, #ffffff00), url(./images/10.png); /* IE10+ */
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/10.png); 
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/10.png);
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/10.png);
+    background-image: -moz-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/10.png); /* FF3.6+ */
+    background-image: -webkit-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/10.png); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/10.png); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/10.png); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/10.png); /* IE10+ */
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/10.png); 
 }
 .fifth_eleven{
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/11.png);
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/11.png);
-    background-image: -moz-linear-gradient(#000000e0, #ffffff00), url(./images/11.png); /* FF3.6+ */
-    background-image: -webkit-gradient(#000000e0, #ffffff00), url(./images/11.png); /* Chrome,Safari4+ */
-    background-image: -webkit-linear-gradient(#000000e0, #ffffff00), url(./images/11.png); /* Chrome10+,Safari5.1+ */
-    background-image: -o-linear-gradient(#000000e0, #ffffff00), url(./images/11.png); /* Opera 11.10+ */
-    background-image: -ms-linear-gradient(#000000e0, #ffffff00), url(./images/11.png); /* IE10+ */
-    background-image: linear-gradient(#000000e0, #ffffff00), url(./images/11.png); 
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/11.png);
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/11.png);
+    background-image: -moz-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/11.png); /* FF3.6+ */
+    background-image: -webkit-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/11.png); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/11.png); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/11.png); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/11.png); /* IE10+ */
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 46.68%), url(./images/11.png); 
 }
 
 .fifth_images h3{

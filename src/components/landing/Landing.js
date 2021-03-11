@@ -92,7 +92,7 @@ class Landing extends Component {
         return (
             <Layout className="bg">
 
-            
+
                 <AppHeader />
 
                 {/* ************************
@@ -102,10 +102,7 @@ class Landing extends Component {
                     <br />
                     <br />
                     <br />
-                    <div className="tests">
-                        <h2 style={{ color:"white",textAlign:"center" }}>Test</h2>
-                
-                    </div>
+
                     <Row className="banner_section" >
 
                         <Col xs={0} sm={0} lg={13}></Col>
