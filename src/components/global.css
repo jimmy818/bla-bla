@@ -116,6 +116,9 @@ body, .ant-menu{
     color: #000000;
     margin-top: 55px;
 }
+.tests{
+    background: -webkit-linear-gradient(red, yellow, orange, green, blue, purple);
+}
 .bg-black .fifth_title{
     color: #FFFFFF;
 }
