@@ -38,44 +38,41 @@ class Landing extends Component {
             var bounding = h1.getBoundingClientRect();
 
             // Log the results
-            // console.log(bounding.top);
-
-            if (bounding.top <= 280) {
+            
+            if (bounding.top > -630 && bounding.top <= 280 ) {
+                console.log(bounding.top);
                 // console.log('okook')
                 this.setState({ changeClass: true })
             } else {
                 this.setState({ changeClass: false })
             }
 
-            // ---------------
+
+        } else {
+            // console.log('teo')
+        }
+
+        if (window.scrollY > 150) {
 
             var aa = document.querySelector('susproyectos');
             var pos = aa.getBoundingClientRect();
 
-            console.log(pos.top);
+            // console.log(pos.top);
 
-            if (pos.top <= 280) {
-                // console.log('okook')
-                this.setState({ changeClass: false, susproyectos: true }, function () {
-
-                })
+            if (pos.top < 280) {
+                
+                if(this.state.changeClass){
+                    console.log('okook')
+                    this.setState({ 
+                        changeClass: false, 
+                        // susproyectos: true 
+                    })
+                }
+                
             } else {
-                this.setState({ susproyectos: false })
+                // this.setState({  changeClass: true })
             }
 
-            // if (
-            //     bounding.top >= 0 &&
-            //     bounding.left >= 0 &&
-            //     bounding.right <= (window.innerWidth || document.documentElement.clientWidth) &&
-            //     bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-            // ) {
-            //     console.log('In the viewport!');
-            // } else {
-            //     console.log('Not in the viewport... whomp whomp');
-            // }
-
-        } else {
-            // console.log('teo')
         }
     }
 
@@ -88,7 +85,7 @@ class Landing extends Component {
 
 
     render() {
-
+        // console.log(this.state.changeClass)
         return (
             <Layout className="bg">
 
@@ -120,7 +117,7 @@ class Landing extends Component {
                 {/* ************************
                     Second and third Row
                 *************************** */}
-                <Content className={this.state.changeClass ? 'second_third_row ' : ' second_third_row change_color'} style={{ 'paddingLeft': '36px' }}>
+                <Content className={this.state.changeClass ? 'second_third_row bg_dark' : ' second_third_row '} style={{ 'paddingLeft': '36px' }}>
                     <Row>
                         <Col span={24}>
                             <p className="second_row text-left">Quién es esta gente</p>
@@ -145,7 +142,7 @@ class Landing extends Component {
                     // ref={(el) => this.yourElement = el}
                     // ref={inputRef}
 
-                    className={this.state.changeClass ? 'fourth_row ' : ' fourth_row change_color'} style={{ 'paddingLeft': '36px' }}>
+                    className={this.state.changeClass ? 'fourth_row bg_dark' : ' fourth_row '} style={{ 'paddingLeft': '36px' }}>
 
                     <h3 className="fourth_title">Qué hacen</h3>
 
@@ -188,7 +185,7 @@ class Landing extends Component {
                     Fifth Row
                 *************************** */}
                 <susproyectos></susproyectos>
-                <Content className={this.state.susproyectos ? 'fifth_row ' : ' fifth_row bg-black'} >
+                <Content className={this.state.changeClass ? 'fifth_row bg_dark' : ' fifth_row '} >
                     <h3 className="fifth_title text-left">Sus proyectos</h3>
 
                     <Row>

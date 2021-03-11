@@ -60,7 +60,7 @@ body, .ant-menu{
     color: #000000;
 }
 .fourth_row{
-    background: #111111;
+    background: #fff;
     transition-duration: 0.3s;
 }
 .fourth_title{
@@ -69,7 +69,7 @@ body, .ant-menu{
     font-weight: 800;
     font-size: 40px;
     line-height: 68px;
-    color: #FFFFFF;
+    color: #111;
     padding-top: 50px;
 }
 .fourth_left{
@@ -78,7 +78,7 @@ body, .ant-menu{
     font-weight: 500;
     font-size: 40px;
     line-height: 55px;
-    color: #FFFFFF;
+    color: #111;
     padding: 80px 0px 0px 50px;
 }
 .strategy_heading{
@@ -95,7 +95,7 @@ body, .ant-menu{
     font-weight: normal;
     font-size: 28px;
     line-height: 38px;
-    color: #FFFFFF;
+    color: #111;
 }
 .fifth_row{
     background: #fff;
@@ -298,16 +298,16 @@ img{
     width:100%;
 }
 .second_third_row{
-    background: #111111;
+    background: #fff;
     transition-duration: 0.3s;
 }
-.fourth_row.change_color, .second_third_row.change_color {
-    background: #fff;
+.fourth_row.bg_dark, .second_third_row.bg_dark, .fifth_row.bg_dark {
+    background: #111111;
 }
-.fourth_row.change_color .fourth_title, .fourth_row.change_color .fourth_left, .fourth_row.change_color .strategy_text, .second_third_row.change_color{
-    color: #111111;
+.fourth_row.bg_dark .fourth_title, .fourth_row.bg_dark .fourth_left, .fourth_row.bg_dark, .second_third_row.bg_dark, .fourth_row.bg_dark .strategy_text, .fifth_row.bg_dark .fifth_title{
+    color: #fff;
 }
-.fourth_row.change_color .strategy_heading{
+.fourth_row.bg_dark .strategy_heading{
     color: #E43737;
 }
 .yellow_bg{
