@@ -397,7 +397,8 @@ img{
     }
     .fifth_title {
         font-size: 28px;
-        margin-top: 20px;
+        margin-top: 0px;
+        padding-top: 20px;
     }
     .sixth_row h3 {
         font-size: 32px !important;
