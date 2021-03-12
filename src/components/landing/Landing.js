@@ -5,6 +5,7 @@ import {
 import 'antd/dist/antd.css';
 import { Link } from 'react-router-dom';
 import AppHeader from '../includes/AppHeader';
+import LandingFirst from './LandingFirst';
 import AppFooter from '../includes/AppFooter';
 import '../global.css';
 import sixthOne from '../images/61.png';
@@ -12,22 +13,18 @@ import sixthTwo from '../images/62.png';
 import sixthThree from '../images/63.png';
 import vector from '../images/Vector.svg';
 
+
 const { Content } = Layout;
 
 
 
 
 class Landing extends Component {
-
-
-
     state = {
         changeClass: false,
         susproyectos: false,
+        showFirstLanding:true
     }
-
-
-
     listenScrollEvent = e => {
         if (window.scrollY > 100) {
             // console.log('first')
@@ -62,7 +59,6 @@ class Landing extends Component {
             if (pos.top < 280) {
                 
                 if(this.state.changeClass){
-                    console.log('okook')
                     this.setState({ 
                         changeClass: false, 
                         // susproyectos: true 
@@ -80,18 +76,29 @@ class Landing extends Component {
     componentDidMount() {
         window.addEventListener('scroll', this.listenScrollEvent)
         // this.isInViewport()
+        setTimeout( () => {
+            this.setState({
+                showFirstLanding:false
+              });
+        }, 20000);
     }
 
 
 
     render() {
-        // console.log(this.state.changeClass)
+        console.log(this.state.showFirstLanding)
         return (
             <Layout className="bg">
 
 
                 <AppHeader />
+                {this.state.showFirstLanding? 
+                
+                <LandingFirst/>
+                :
+                <div>
 
+                
                 {/* ************************
                     First Row
                 *************************** */}
@@ -352,8 +359,9 @@ class Landing extends Component {
                     </Row>
                 </Content>
 
-
                 <AppFooter />
+                </div>
+                }
 
             </Layout>
         );

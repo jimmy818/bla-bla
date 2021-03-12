@@ -27,23 +27,23 @@ class AppHeader extends Component {
 
         return (
             <React.Fragment>
-            <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top bla_nav">
-                <a class="navbar-brand" href="#">
+            <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top bla_nav">
+                <a className="navbar-brand" href="#">
                     <img src={Bla} />    
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mr-5">
-                            <a class="nav-link" href="#">About</a>
+                <div className="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul className="navbar-nav ml-auto">
+                        <li className="nav-item mr-5">
+                            <a className="nav-link" href="#">About</a>
                         </li>
-                        <li class="nav-item mr-5">
-                            <a class="nav-link" href="#">Proyectos</a>
+                        <li className="nav-item mr-5">
+                            <a className="nav-link" href="#">Proyectos</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Contacto</a>
                         </li>
                     </ul>
                 </div>

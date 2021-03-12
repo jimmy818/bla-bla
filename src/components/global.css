@@ -328,6 +328,21 @@ img{
     height: 28px;
 }
 
+.first-page{
+    padding: .5rem 1rem;
+    cursor: url('./images/cursor.png'), auto;
+}
+.first-landing-p{
+    position: static;
+    left: 0px;
+    top: 0px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 68px;
+}
+
 @media only screen and (max-width:768px){
     .fixed-top {
         position: inherit;
@@ -453,5 +468,14 @@ img{
     }
     .yellow_bg{
         line-height: unset;
+    }
+    .first-landing-p{
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 27px;
+        color: #000000;
+        
     }
 }
