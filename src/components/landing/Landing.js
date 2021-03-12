@@ -71,6 +71,11 @@ class Landing extends Component {
 
         }
     }
+    changePage =()=> {
+        this.setState({ 
+            showFirstLanding: false, 
+        })
+    }
 
 
     componentDidMount() {
@@ -94,7 +99,27 @@ class Landing extends Component {
                 <AppHeader />
                 {this.state.showFirstLanding? 
                 
-                <LandingFirst/>
+                // <LandingFirst/>
+                <div onClick={this.changePage}>
+                     <Layout className="bg first-page">
+                        {/* <AppHeader /> */}
+                        <Content className="">
+                                <br />
+                                <br />
+                                <br />
+
+                                <Row>
+                                    <Col xs={{ span: 24 }} sm={{ span: 24 }} lg={{ span: 24 }} >
+                                        <p className="first-landing-p">
+                                        Somos muy de enrollarnos a hablar mientras nos tomamamos un café normalmente en un Starbucks aún que también somos mucho de un sitio que está cerquita que se llama Amasa que por cierto el que no lo conzoca hacen un café buenisimo y las tostadas con aguacate están bastente bien la verdad pero el café es top incluso a veces nos lo cogemos para hacerlo en casa
+                                        </p>
+                                    </Col>
+
+                                </Row>
+                            </Content>
+                        {/* <AppFooter /> */}
+                    </Layout>
+                </div>
                 :
                 <div>
 
