@@ -91,7 +91,7 @@ class Landing extends Component {
         return (
             <Layout className="bg">
 
-            <Content className="">
+            {/* <Content className="">
                 <Row>
                     <Col xs={{ span: 24 }} sm={{ span: 24 }} lg={{ span: 24 }} className="bg-black">
                     <Row>
@@ -116,7 +116,7 @@ class Landing extends Component {
                     </Col>
 
                 </Row>
-            </Content>
+            </Content> */}
                 <AppHeader />
                 {this.state.showFirstLanding? 
                 
