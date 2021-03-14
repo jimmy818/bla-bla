@@ -12,12 +12,8 @@ import sixthOne from '../images/61.png';
 import sixthTwo from '../images/62.png';
 import sixthThree from '../images/63.png';
 import vector from '../images/Vector.svg';
-
-
+import cartoon from '../images/cartoon-landing.svg';
 const { Content } = Layout;
-
-
-
 
 class Landing extends Component {
     state = {
@@ -95,7 +91,32 @@ class Landing extends Component {
         return (
             <Layout className="bg">
 
+            <Content className="">
+                <Row>
+                    <Col xs={{ span: 24 }} sm={{ span: 24 }} lg={{ span: 24 }} className="bg-black">
+                    <Row>
+                        <Col xs={{ span: 10 }} sm={{ span: 10 }} lg={{ span: 10 }}>
+                            <img className="landing-cartoon" src={cartoon} alt="cartoon Cookies" />
+                        </Col>
+                        <Col xs={{ span: 14 }} sm={{ span: 14 }} lg={{ span: 14 }} className="popup-column-padding">
+                            <p className="cookies-popup-p">¿Aceptas nuestras cookies?</p>
+                            <Row>
+                                <Col xs={{ span: 12 }} sm={{ span: 12 }} lg={{ span: 12 }} className="text-center">
+                                    <a className="cookies-btn" href="#">Si, acepto</a>
+                                </Col>
+                                <Col xs={{ span: 12 }} sm={{ span: 12 }} lg={{ span: 12 }} className="text-center">
+                                    <a className="cookies-btn" href="#">Quiero saber más</a>
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
+                        <p className="cookies-popup">
+                        
+                        </p>
+                    </Col>
 
+                </Row>
+            </Content>
                 <AppHeader />
                 {this.state.showFirstLanding? 
                 

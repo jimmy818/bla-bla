@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { slide as Menu } from 'react-burger-menu'
 // import { Menu } from 'antd';
+import { Link } from 'react-router-dom';
 import './HeaderFooter.css';
 import '../global.css';
 import Bla from '../images/Bla..svg';
@@ -28,9 +29,9 @@ class AppHeader extends Component {
         return (
             <React.Fragment>
             <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top bla_nav">
-                <a className="navbar-brand" href="#">
+                <Link className="navbar-brand" to="/">
                     <img src={Bla} />    
-                </a>
+                </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span className="navbar-toggler-icon"></span>
                 </button>

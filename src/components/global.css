@@ -7,7 +7,7 @@
     src: local('AaronsHand'), url(./fonts/AaronHand.ttf) format('woff');
 }
 .text-center{
-    text-align: center;
+    text-align: center !important;
 }
 body, .ant-menu{
     background: #FFF;
@@ -342,7 +342,85 @@ img{
     font-size: 50px;
     line-height: 68px;
 }
-
+.cookies-page .main-heading{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 137px;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    color: #000000;
+}
+.cookies-paragraph{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+}
+.cookies-text-heading{
+    font-weight: 700;
+    margin: 50px 0px 15px 0px;
+}
+.cookies-image{
+    position: absolute;
+    width: 382px;
+    height: 287px;
+    left: 790px;
+    bottom: 0px;
+}
+.cookies-bottom{
+    margin-bottom: 300px;
+}
+.bg-black{
+    background: #000;
+    position: fixed;
+    height: 340px;
+    left: 0px;
+    right: 0px;
+    top: 262px;
+    z-index: 999999;
+}
+.cookies-popup{
+    color: #FFF;
+}
+.landing-cartoon {
+    position: absolute;
+    width: 588px;
+    height: 471px;
+    left: -7px;
+    top: -130px;
+}
+.cookies-popup-p{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-bottom: 20px;
+}
+.cookies-btn{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    /* display: flex; */
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+.popup-column-padding{
+    padding: 90px 0px;
+}
 @media only screen and (max-width:768px){
     .fixed-top {
         position: inherit;
