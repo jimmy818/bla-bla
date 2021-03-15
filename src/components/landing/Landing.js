@@ -19,7 +19,8 @@ class Landing extends Component {
     state = {
         changeClass: false,
         susproyectos: false,
-        showFirstLanding:true
+        showFirstLanding:true,
+        cookiesPopup:sessionStorage.getItem("isCookies")
     }
     listenScrollEvent = e => {
         if (window.scrollY > 100) {
@@ -33,7 +34,7 @@ class Landing extends Component {
             // Log the results
             
             if (bounding.top > -630 && bounding.top <= 280 ) {
-                console.log(bounding.top);
+                // console.log(bounding.top);
                 // console.log('okook')
                 this.setState({ changeClass: true })
             } else {
@@ -82,41 +83,62 @@ class Landing extends Component {
                 showFirstLanding:false
               });
         }, 20000);
+
+        if(sessionStorage.getItem("isCookies") === null){
+            this.setState({
+                cookiesPopup:"show"
+            })
+        }
+    }
+    
+    hideCookies =() => {
+        console.log("Hide Cookies");
+        sessionStorage.setItem("isCookies","hide")
+        this.setState({
+            cookiesPopup:"hide"
+        })
     }
 
 
 
     render() {
-        console.log(this.state.showFirstLanding)
+        console.log(this.state.cookiesPopup)
+        let cookiesPopupView = null;
+        if(this.state.cookiesPopup===null || this.state.cookiesPopup==="show"){
+            cookiesPopupView = (<Content className="">
+            <Row>
+                <Col xs={{ span: 24 }} sm={{ span: 24 }} lg={{ span: 24 }} className="bg-black">
+                <Row>
+                    <Col xs={{ span: 10 }} sm={{ span: 10 }} lg={{ span: 10 }}>
+                        <img className="landing-cartoon" src={cartoon} alt="cartoon Cookies" />
+                    </Col>
+                    <Col xs={{ span: 14 }} sm={{ span: 14 }} lg={{ span: 14 }} className="popup-column-padding">
+                        <p className="cookies-popup-p">¿Aceptas nuestras cookies?</p>
+                        <Row>
+                            <Col xs={{ span: 12 }} sm={{ span: 12 }} lg={{ span: 12 }} className="text-center">
+                                <a className="cookies-btn" onClick={this.hideCookies}>Si, acepto</a>
+                            </Col>
+                            <Col xs={{ span: 12 }} sm={{ span: 12 }} lg={{ span: 12 }} className="text-center">
+                                <a className="cookies-btn" onClick={this.hideCookies}>Quiero saber más</a>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+                    <p className="cookies-popup">
+                    
+                    </p>
+                </Col>
+
+            </Row>
+        </Content> );
+        
+        }
         return (
             <Layout className="bg">
-
-            {/* <Content className="">
-                <Row>
-                    <Col xs={{ span: 24 }} sm={{ span: 24 }} lg={{ span: 24 }} className="bg-black">
-                    <Row>
-                        <Col xs={{ span: 10 }} sm={{ span: 10 }} lg={{ span: 10 }}>
-                            <img className="landing-cartoon" src={cartoon} alt="cartoon Cookies" />
-                        </Col>
-                        <Col xs={{ span: 14 }} sm={{ span: 14 }} lg={{ span: 14 }} className="popup-column-padding">
-                            <p className="cookies-popup-p">¿Aceptas nuestras cookies?</p>
-                            <Row>
-                                <Col xs={{ span: 12 }} sm={{ span: 12 }} lg={{ span: 12 }} className="text-center">
-                                    <a className="cookies-btn" href="#">Si, acepto</a>
-                                </Col>
-                                <Col xs={{ span: 12 }} sm={{ span: 12 }} lg={{ span: 12 }} className="text-center">
-                                    <a className="cookies-btn" href="#">Quiero saber más</a>
-                                </Col>
-                            </Row>
-                        </Col>
-                    </Row>
-                        <p className="cookies-popup">
-                        
-                        </p>
-                    </Col>
-
-                </Row>
-            </Content> */}
+            {/* {this.state.cookiesPopup ?
+            
+         : ""} */}
+         {cookiesPopupView}
                 <AppHeader />
                 {this.state.showFirstLanding? 
                 
@@ -132,7 +154,7 @@ class Landing extends Component {
                                 <Row>
                                     <Col xs={{ span: 24 }} sm={{ span: 24 }} lg={{ span: 24 }} >
                                         <p className="first-landing-p">
-                                        Somos muy de enrollarnos a hablar mientras nos tomamamos un café normalmente en un Starbucks aún que también somos mucho de un sitio que está cerquita que se llama Amasa que por cierto el que no lo conzoca hacen un café buenisimo y las tostadas con aguacate están bastente bien la verdad pero el café es top incluso a veces nos lo cogemos para hacerlo en casa
+                                        Porque somos muy de enrollarnos a hablar mientras nos tomamamos un café (normalmente en un Starbucks aún que también somos mucho de un sitio que está cerquita que se llama Amasa que por cierto el que no lo conzoca hacen un café buenisimo y las tostadas con aguacate están bastente bien la verdad pero el café es top incluso a veces nos lo cogemos para hacerlo en casa aunque nunca es igual hacerlo en casa que que te lo hagan) porque nos encanta lo que hacemos y hablar de ello... Bienvenidos a Bla.
                                         </p>
                                     </Col>
 
@@ -159,7 +181,7 @@ class Landing extends Component {
                         <Col xs={{ span: 23, offset: 1 }} sm={{ span: 23, offset: 1 }} lg={{ span: 10, offset: 0 }} >
 
                             <p className="">
-                                Diseñamos soluciones exclusivas para ti, trabajando todos los campos del producto para desarrollar todo su potencial.
+                                Diseñamos soluciones exclusivas para ti, apostando por la calidad y la personalización en cada proyecto, trabajando tu idea en el entorno digital de principio a fin para desarrollar todo su potencial.
                             </p>
                         </Col>
 
