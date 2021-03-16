@@ -115,10 +115,10 @@ class Landing extends Component {
                     <Col xs={{ span: 16 }} sm={{ span: 14 }} lg={{ span: 14 }} className="popup-column-padding">
                         <p className="cookies-popup-p">¿Aceptas nuestras cookies?</p>
                         <Row>
-                            <Col xs={{ span: 12 }} sm={{ span: 12 }} lg={{ span: 12 }} className="text-center">
+                            <Col xs={{ span: 12 }} sm={{ span: 6 }} lg={{ span: 12 }} className="text-center">
                                 <a className="cookies-btn" onClick={this.hideCookies}>Si, acepto</a>
                             </Col>
-                            <Col xs={{ span: 9 }} sm={{ span: 12 }} lg={{ span: 12 }} className="text-center">
+                            <Col xs={{ span: 9 }} sm={{ span: 4 }} lg={{ span: 12 }} className="text-center">
                                 <Link className="cookies-btn" to="/cookies"> Saber más</Link>
                             </Col>
                         </Row>

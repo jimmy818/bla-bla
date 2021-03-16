@@ -369,7 +369,7 @@ img{
     position: absolute;
     width: 382px;
     height: 287px;
-    left: 790px;
+    right: 0px;
     bottom: 0px;
 }
 .cookies-bottom{
@@ -421,6 +421,7 @@ img{
 .popup-column-padding{
     padding: 90px 0px;
 }
+
 @media only screen and (max-width:768px){
     .fixed-top {
         position: inherit;
@@ -586,7 +587,7 @@ img{
         position: absolute;
         width: 235px;
         height: 287px;
-        left: 130px;
+        right: 0px;
         bottom: -86px;
     }
     .cookies-page .main-heading {

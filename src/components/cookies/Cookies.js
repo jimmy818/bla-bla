@@ -25,7 +25,7 @@ class Cookies extends Component{
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} lg={{ span: 24 }} >
                             <h1 className="main-heading">Lo de las cookies</h1>
                         </Col>
-                        <Col xs={{ span: 24, offset:0 }} sm={{ span: 24, offset:2 }} lg={{ span: 20, offset:2 }} >
+                        <Col xs={{ span: 24, offset:0 }} sm={{ span: 24, offset:0 }} lg={{ span: 20, offset:2 }} >
                             <p className="cookies-paragraph">
                             Somos muy de enrollarnos a hablar mientras nos tomamamos un café normalmente en un Starbucks aún que también somos mucho de un sitio que está cerquita que se llama Amasa que por cierto el que no lo conzoca hacen un café buenisimo y las tostadas con aguacate están bastente bien la verdad pero el café es top incluso a veces nos lo cogemos para hacerlo en casa
 
