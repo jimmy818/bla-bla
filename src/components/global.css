@@ -557,4 +557,60 @@ img{
         color: #000000;
         
     }
+    .landing-cartoon {
+        position: absolute;
+        width: 175px;
+        height: 140px;
+        left: -49px;
+        top: -38px;
+    }
+    .bg-black {
+        height: 102px;
+    }
+    .popup-column-padding{
+        padding: 0;
+    }
+    .cookies-btn{
+        font-size: 14px;
+        line-height: 0px;
+        font-weight: 500;
+    }
+    .cookies-popup-p{
+        margin-bottom: 0px;
+        line-height: 50px;
+        padding-top:10px;
+        font-weight: 500;
+        font-size: 19px;
+    }
+    .cookies-image {
+        position: absolute;
+        width: 235px;
+        height: 287px;
+        left: 130px;
+        bottom: -86px;
+    }
+    .cookies-page .main-heading {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        /* font-size: 100px; */
+        line-height: 40px;
+        /* display: flex; */
+        /* align-items: center; */
+        text-align: center;
+        color: #000000;
+        font-size: 30px !important;
+    }
+    .cookies-paragraph {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 27px;
+        color: #000000;
+        padding: 0px 20px;
+    }
+    .cookies-text-heading{
+        padding: 0px 20px;
+    }
 }
