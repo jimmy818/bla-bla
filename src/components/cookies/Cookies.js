@@ -7,7 +7,8 @@ import { Link } from 'react-router-dom';
 import AppHeader from '../includes/AppHeader';
 import AppFooter from '../includes/AppFooter';
 import '../global.css';
-import cartoon from '../images/cartoon-cookies.svg';
+import cartoon from '../images/cartoon-land.svg';
+// import cartoon from '../images/cartoon-cookies.svg';
 
 const { Content } = Layout;
 

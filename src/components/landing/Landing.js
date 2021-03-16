@@ -12,7 +12,8 @@ import sixthOne from '../images/61.png';
 import sixthTwo from '../images/62.png';
 import sixthThree from '../images/63.png';
 import vector from '../images/Vector.svg';
-import cartoon from '../images/cartoon-landing.svg';
+// import cartoon from '../images/cartoon-landing.svg';
+import cartoon from '../images/cartoon-land.svg';
 const { Content } = Layout;
 
 class Landing extends Component {
@@ -149,7 +150,7 @@ class Landing extends Component {
                         <Content className="">
                                 <br />
                                 <br />
-                                <br />
+                                {/* <br /> */}
 
                                 <Row>
                                     <Col xs={{ span: 24 }} sm={{ span: 24 }} lg={{ span: 24 }} >

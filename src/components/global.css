@@ -339,7 +339,7 @@ img{
     font-family: 'Avenir';
     font-style: normal;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 68px;
 }
 .cookies-page .main-heading{
@@ -399,7 +399,7 @@ img{
     width: 588px;
     height: 471px;
     left: -37px;
-    top: -130px;
+    bottom: -14px;
 }
 .cookies-popup-p{
     font-family: Avenir;
@@ -567,10 +567,10 @@ img{
     }
     .landing-cartoon {
         position: absolute;
-        width: 175px;
+        width: 167px;
         height: 140px;
-        left: -49px;
-        top: -38px;
+        left: -25px;
+        bottom: -26px;
     }
     .bg-black {
         height: 102px;
@@ -588,7 +588,7 @@ img{
         line-height: 50px;
         padding-top:10px;
         font-weight: 500;
-        font-size: 19px;
+        font-size: 16px;
     }
     .cookies-image {
         position: absolute;
