@@ -381,17 +381,24 @@ img{
     height: 340px;
     left: 0px;
     right: 0px;
-    top: 262px;
+    bottom: 0px;
     z-index: 999999;
 }
 .cookies-popup{
     color: #FFF;
 }
-.landing-cartoon {
+/* .landing-cartoon {
     position: absolute;
     width: 588px;
     height: 471px;
     left: -7px;
+    top: -130px;
+} */
+.landing-cartoon {
+    position: absolute;
+    width: 588px;
+    height: 471px;
+    left: -37px;
     top: -130px;
 }
 .cookies-popup-p{
