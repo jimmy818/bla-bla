@@ -180,7 +180,7 @@ class Landing extends Component {
                     <Row className="banner_section" >
 
                         <Col xs={0} sm={0} lg={13}></Col>
-                        <Col xs={{ span: 23, offset: 1 }} sm={{ span: 23, offset: 1 }} lg={{ span: 10, offset: 0 }} >
+                        <Col xs={{ span: 22, offset: 1 }} sm={{ span: 23, offset: 1 }} lg={{ span: 10, offset: 0 }} >
 
                             <p className="">
                                 Diseñamos soluciones exclusivas para ti, apostando por la calidad y la personalización en cada proyecto, trabajando tu idea en el entorno digital de principio a fin para desarrollar todo su potencial.
