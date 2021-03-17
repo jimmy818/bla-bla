@@ -111,7 +111,8 @@ class Landing extends Component {
                 <Col xs={{ span: 24 }} sm={{ span: 24 }} lg={{ span: 24 }} className="bg-black">
                 <Row>
                     <Col xs={{ span: 7 }} sm={{ span: 10 }} lg={{ span: 9 }}>
-                        <img className="landing-cartoon" src={cartoon} alt="cartoon Cookies" />
+                        <img className="landing-cartoon landing-cartoon-desk" src={cartoon} alt="cartoon Cookies" />
+                        <img className="landing-cartoon landing-cartoon-mob" src={cartoon} alt="cartoon Cookies" />
                     </Col>
                     <Col xs={{ span: 16 }} sm={{ span: 14 }} lg={{ span: 15 }} className="popup-column-padding">
                         <p className="cookies-popup-p">¿Aceptas nuestras cookies?</p>
@@ -148,9 +149,9 @@ class Landing extends Component {
                      <Layout className="bg first-page">
                         {/* <AppHeader /> */}
                         <Content className="">
+                                {/* <br />
                                 <br />
-                                <br />
-                                {/* <br /> */}
+                                <br /> */}
 
                                 <Row>
                                     <Col xs={{ span: 24 }} sm={{ span: 24 }} lg={{ span: 24 }} >
@@ -175,7 +176,7 @@ class Landing extends Component {
                     <br />
                     <br />
                     <br />
-
+                    <br />
                     <Row className="banner_section" >
 
                         <Col xs={0} sm={0} lg={13}></Col>

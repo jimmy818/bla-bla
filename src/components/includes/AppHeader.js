@@ -51,7 +51,7 @@ class AppHeader extends Component {
             </nav>
             <br />
             <br />
-            <br />
+            
             </React.Fragment>
             // <Menu right >
             //     <a id="home" className="menu-item" href="/">Home</a>

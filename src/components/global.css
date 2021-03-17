@@ -331,6 +331,7 @@ img{
 .first-page{
     padding: .5rem 1rem;
     cursor: url('./images/cursor.png'), auto;
+    margin-top: 60px;
 }
 .first-landing-p{
     position: static;
@@ -428,8 +429,11 @@ img{
 .popup-column-padding{
     padding: 90px 0px;
 }
-
+.landing-cartoon-desk{display: block;}
+.landing-cartoon-mob{display: none;}
 @media only screen and (max-width:768px){
+    .landing-cartoon-desk{display: none;}
+.landing-cartoon-mob{display: block;}
     .fixed-top {
         position: inherit;
     }
@@ -574,6 +578,12 @@ img{
     }
     .bg-black {
         height: 102px;
+    }
+    .first-page{
+        margin-top: 0px;
+    }
+    .banner_section p{
+        margin-top: 0px;
     }
     .popup-column-padding{
         padding: 0;
