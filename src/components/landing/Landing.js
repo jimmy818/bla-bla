@@ -103,7 +103,7 @@ class Landing extends Component {
 
 
     render() {
-        console.log(this.state.cookiesPopup)
+        // console.log(this.state.cookiesPopup)
         let cookiesPopupView = null;
         if(this.state.cookiesPopup===null || this.state.cookiesPopup==="show"){
             cookiesPopupView = (<Content className="">
@@ -140,7 +140,7 @@ class Landing extends Component {
             {/* {this.state.cookiesPopup ?
             
          : ""} */}
-         {cookiesPopupView}
+         
                 <AppHeader />
                 {this.state.showFirstLanding? 
                 
@@ -173,6 +173,7 @@ class Landing extends Component {
                     First Row
                 *************************** */}
                 <Content className="">
+                {cookiesPopupView}
                     <br />
                     <br />
                     <br />
