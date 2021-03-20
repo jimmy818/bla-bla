@@ -156,7 +156,7 @@ class Landing extends Component {
                                 <Row>
                                     <Col xs={{ span: 24 }} sm={{ span: 24 }} lg={{ span: 24 }} >
                                         <p className="first-landing-p">
-                                        Porque somos muy de enrollarnos a hablar mientras nos tomamamos un café (normalmente en un Starbucks aun que también somos mucho de un sitio que está cerquita que se llama Amasa que por cierto el que no lo conzoca hacen un café buenisimo y las tostadas con aguacate están bastente bien la verdad pero el café es top incluso a veces nos lo cogemos para hacerlo en casa aunque nunca es igual hacerlo en casa que que te lo hagan) porque nos encanta lo que hacemos y hablar de ello... Bienvenidos a Bla.
+                                        Porque somos muy de enrollarnos a hablar mientras nos tomamamos un café (normalmente en un Starbucks aunque también somos mucho de un sitio que está cerquita que se llama Amasa que por cierto el que no lo conozca hacen un café buenisimo y las tostadas con aguacate están bastante bien la verdad pero el café es top incluso a veces nos lo cogemos para hacerlo en casa aunque nunca es igual hacerlo en casa que que te lo hagan) porque nos encanta lo que hacemos y hablar de ello... Bienvenidos a Bla.
                                         </p>
                                     </Col>
 
@@ -235,7 +235,7 @@ class Landing extends Component {
                                     <p className="strategy_heading">Strategy</p>
                                 </Col>
                                 <Col xs={{ span: 20, offset: 4 }} sm={{ span: 19, offset: 5 }}>
-                                    <p className="strategy_text">Como diría Jack el destripador vamos por partes”. Nos centramos en hacer un buen research para iniciar la estrategia.</p>
+                                    <p className="strategy_text">Como diría Jack el destripador “vamos por partes”. Nos centramos en hacer un buen research para iniciar la estrategia.</p>
                                 </Col>
                             </Row>
                             <Row>
@@ -251,7 +251,7 @@ class Landing extends Component {
                                     <p className="strategy_heading">Flow</p>
                                 </Col>
                                 <Col xs={{ span: 20, offset: 4 }} sm={{ span: 19, offset: 5 }}>
-                                    <p className="strategy_text">#betrendmyfriend Estrategias de social media, comunicación, producción y social paid</p>
+                                    <p className="strategy_text">#betrendmyfriend Estrategias de social media, comunicación, producción y Final point</p>
                                 </Col>
                             </Row>
                         </Col>
