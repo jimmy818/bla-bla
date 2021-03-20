@@ -110,7 +110,7 @@ class Landing extends Component {
             <Row>
                 <Col xs={{ span: 24 }} sm={{ span: 24 }} lg={{ span: 24 }} className="bg-black">
                 <Row>
-                    <Col xs={{ span: 7 }} sm={{ span: 10 }} lg={{ span: 9 }}>
+                    <Col xs={{ span: 8 }} sm={{ span: 10 }} lg={{ span: 9 }}>
                         <img className="landing-cartoon landing-cartoon-desk" src={cartoon} alt="cartoon Cookies" />
                         <img className="landing-cartoon landing-cartoon-mob" src={cartoon} alt="cartoon Cookies" />
                     </Col>
@@ -156,7 +156,7 @@ class Landing extends Component {
                                 <Row>
                                     <Col xs={{ span: 24 }} sm={{ span: 24 }} lg={{ span: 24 }} >
                                         <p className="first-landing-p">
-                                        Porque somos muy de enrollarnos a hablar mientras nos tomamamos un café (normalmente en un Starbucks aún que también somos mucho de un sitio que está cerquita que se llama Amasa que por cierto el que no lo conzoca hacen un café buenisimo y las tostadas con aguacate están bastente bien la verdad pero el café es top incluso a veces nos lo cogemos para hacerlo en casa aunque nunca es igual hacerlo en casa que que te lo hagan) porque nos encanta lo que hacemos y hablar de ello... Bienvenidos a Bla.
+                                        Porque somos muy de enrollarnos a hablar mientras nos tomamamos un café (normalmente en un Starbucks aun que también somos mucho de un sitio que está cerquita que se llama Amasa que por cierto el que no lo conzoca hacen un café buenisimo y las tostadas con aguacate están bastente bien la verdad pero el café es top incluso a veces nos lo cogemos para hacerlo en casa aunque nunca es igual hacerlo en casa que que te lo hagan) porque nos encanta lo que hacemos y hablar de ello... Bienvenidos a Bla.
                                         </p>
                                     </Col>
 
